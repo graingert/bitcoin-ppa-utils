@@ -1,5 +1,5 @@
-#!/bin/sh
-echo "USAGE: bitcoin-debian build|upload|clean"
+#!/usr/bin/env sh
+echo "USAGE: $0 build|upload|clean"
 OLDPATH=`pwd`
 cd /home/matt/Documents/DeveloperProjects/Bitcoin
 rm bitcoin_*.debian.tar.gz
