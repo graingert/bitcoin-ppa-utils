@@ -14,7 +14,7 @@ rm -rf .pc/
 DEBIAN_NEEDS_REMOVED=0
 if [ ! -d debian -a -d contrib/debian ]; then
 	cp -r contrib/debian .
-	DEBIAN_RENEEDS_MOVED=1
+	DEBIAN_ENEEDS_MOVED=1
 fi
 echo "#1001_use_system_json-spirit.patch" > debian/patches/series
 if [ "$1" = "upload" ]; then
